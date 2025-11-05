@@ -1,0 +1,54 @@
+main {
+    padding-top: 30px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    gap: 20px;
+    width: 90%;
+    margin-top: 15px;
+}
+
+    .project-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+    }
+
+        .project-card h1 {
+            margin-bottom: 5px;
+        }
+
+footer {
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 600px) {
+    .card-container {
+        gap: 40px;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    
+    .card-container {
+        gap: 40px 90px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .project-card {
+        max-width: 40%;
+    }
+
+    .horizontal-line {
+        display: none;
+    }
+}
