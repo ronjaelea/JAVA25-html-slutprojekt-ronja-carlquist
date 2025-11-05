@@ -1,0 +1,28 @@
+nav .active {
+    font-size: 130%;
+}
+
+nav a {
+    transition: background-color 0.4s;
+}
+nav a:hover {
+    background-color: var(--bg-hover-nav);
+}
+
+.project-card picture { 
+    transition: transform 0.3s;
+}
+
+.project-card picture:hover {
+    transform: scale(1.05);
+
+}
+
+.project-image picture {
+    transition: transform 0.3s;
+}
+
+.project-image picture:hover {
+    transform: scale(1.05);
+}
+
